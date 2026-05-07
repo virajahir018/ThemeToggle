@@ -12,7 +12,7 @@ if (saveTheme === "dark") {
 } else {
 
     body.classList.add("light");
-    circle.innerHTML = `<i class="fa-solid fa-sun"></i>`
+    circle.innerHTML = `&#9728;`
 
 }
 
@@ -29,7 +29,7 @@ button.addEventListener("click", () => {
     } else {
 
         body.classList.replace("dark", "light");
-        circle.innerHTML = `<i class="fa-solid fa-sun"></i>`
+        circle.innerHTML = `&#9728;`
 
         
         localStorage.setItem("theme", "light");
